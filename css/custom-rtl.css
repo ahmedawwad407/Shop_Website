@@ -1,0 +1,811 @@
+
+/*_______________________________________________________
+// BASIC STYLE  //----------------------------
+_______________________________________________________*/
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700,700i,800');
+
+ /* - General Style //---------------- */ 
+
+
+body, html { direction: rtl; }
+
+.position-r { position: relative; }
+.position-s { position: static; }
+.position-initial { position: initial; }
+
+.align-center { text-align: center; }
+.align-left { text-align: left !important; }
+.align-right { text-align: right !important; }
+
+.pull-right { float: left; }
+.pull-left { float: right; }
+
+.border-right {
+	border-left: 1px solid #e1e1e1;
+	border-right: none;
+}
+#newslater-popup button.mfp-close {
+	right: auto;
+	left: 10px;
+}
+input, button, select, optgroup, textarea {
+	font-family: sans-serif;
+}
+
+/* - Form Style */
+* {
+	outline: none !important;
+}
+select {
+	background: url(../images/select-icon3.png) no-repeat scroll 0 50% #fff !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #eaeaea;
+	padding: 5px 24px 5px 5px;
+	line-height: 18px;
+}
+.full select {
+	width: 100%;
+}
+.main-form textarea {
+	max-width: 100%;
+}
+.main-form input, .main-form textarea, .main-form select {
+	background: #fff;
+	padding: 8px 15px;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	min-height: 40px;
+}
+.checkout-section .check-box input[type="checkbox"] {
+	margin: 5px 0 0;
+	min-height: 1px;
+	display: none;
+}
+.category-dropdown {
+	border: 1px solid #e1e1e1;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 0;
+    border-radius : 0 25px 25px 0;
+    -moz-border-radius : 0 25px 25px 0;
+    -webkit-border-radius : 0 25px 25px 0;
+    -o-border-radius : 0 25px 25px 0;
+
+}
+.select-dropdown .ui-state-default {
+    background: rgba(0,0,0,0) url(../images/select-icon3.png) no-repeat scroll left 50% !important;
+}
+.category-dropdown .ui-state-default {
+	height: 38px;
+}
+.select-item .ui-state-default {
+    margin-top: 2px;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+}
+.top-link-left.select-dropdown .ui-selectmenu-button span.ui-selectmenu-text {
+	padding: 10px 0;
+}
+.select-dropdown .ui-selectmenu-button span.ui-selectmenu-text {
+	padding: 0;
+	font-weight: 400;
+}
+.category-dropdown .ui-selectmenu-button span.ui-selectmenu-text {
+	padding-right: 15px;
+	padding-left: 0;
+	margin-top: 10px;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	text-align: right;
+}
+.ui-selectmenu-button span.ui-icon {
+	right: auto;
+	left: 5px;
+}
+.subscribe-popup .close {
+	right: auto;
+	left: 0;
+}
+/* - Spacer Style  //---------------- */
+.right-side {
+	float: left;
+}
+.left-side {
+	float: right;
+}
+.plr-20 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.mlr_-20 {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+/*_______________________________________________________
+// HEADER  //----------------------------
+_______________________________________________________*/
+
+/* - Header Style  //---------------- */
+
+.header-top {
+	width: 100%;
+}
+.top-right-link ul li  {
+    float: right;
+    border-left: 1px solid #e1e1e1;
+    border-right: none;
+    line-height: 17px;
+    padding: 0 12px;
+    position: relative;
+}
+.top-right-link ul li:first-child  {
+    padding-right: 0;
+    padding-left: 12px;
+}
+.top-right-link ul li:last-child  {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 12px;
+}
+.navbar-header .navbar-brand {
+	margin-right: 0;
+}
+.header-right-part {
+    padding: 0 250px 0 0;
+}
+.header-right-link > ul > li {
+	float: right;
+}
+.search-box input.input-text {
+    padding: 6px 10px 6px 10px;
+    border-radius : 25px 0 0 25px;
+    -moz-border-radius : 25px 0 0 25px;
+    -webkit-border-radius : 25px 0 0 25px;
+    -o-border-radius : 25px 0 0 25px;
+}
+.search-box button.search-btn {
+	left: 0;
+	right: auto;
+}
+.header-right-link ul li.cart-icon > a span small.cart-notification {
+	left: 3px;
+	right: auto;
+}
+/* Navigation Menu Style */
+
+.header-link-dropdown {
+    left: 0;
+    right: auto;
+    padding: 30px 30px 30px 20px;
+}
+.cart-list.link-dropdown-list {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.nav > li .menu-label {
+    left: 15px;
+    right: auto;
+}
+.sidebar-menu-dropdown > a span {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.navbar-collapse.collapse {
+	display: inline-block;
+}
+.cat-dropdown .sidebar-contant ul li.level {
+	text-align: right;
+}
+.cat-dropdown .navbar-nav > li > a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.cat-dropdown .sub-megamenu a.page-scroll:before {
+    content:  "ï„„";
+    float: left;
+    left: 10px;
+    right: auto;
+}
+.cat-dropdown .nav > li.level .megamenu {
+    margin-left: 0;
+    right: 100%;
+    left: auto;
+}
+.cat-dropdown .nav > li.level:hover .megamenu {
+	left: auto;
+  	right: 100%;
+}
+.cart-dropdown .cart-list li .media {
+	padding-left: 25px;
+	padding-right: 0;
+	margin-top: 0;
+}
+.cart-dropdown .cart-list li .media .pull-left {
+	padding-left: 20px;
+	padding-right: 0;
+}
+.close-cart {
+	left: 0;
+	right: auto;
+}
+.media-body {
+	text-align: right;
+}
+
+/* --- Megamenu Style --- */
+.megamenu {
+	right: 0;
+	left: auto;
+}
+.megamenu.full {
+	right: 0;
+	left: auto;
+}
+.megamenu .sub-menu-level1 li.level2 {
+	float: right;
+}
+.megamenu .sub-menu-level2 li.level3 > a span {
+	float: right;
+	margin-left: 9px;
+	margin-right: 0;
+}
+
+/*popup-containt*/
+.popup-links {
+	left: 0;
+	right: auto;
+}
+.popup-links-inner {
+	left: auto;
+}
+.popup-links ul li {
+	left: 0;
+	right: auto;
+	padding-left: 5px;
+	padding-right: 0;
+}
+.popup-links ul li:hover {
+	left: calc(100% - 40px);
+	right: auto;
+}
+.popup_containt .modal-header .close {
+    left: 10px;
+    right: auto;
+}
+.popup-title {
+	text-align: right;
+}
+.popup-detail {
+    padding-right: 0;
+    padding-left: 10px;
+}
+#account_popup .popup-detail, #search_popup .popup-detail {
+    padding: 0;
+}
+.cate-inner li.level a {
+	text-align: right;
+}
+.cate-inner li > a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.cate-inner .megamenu-inner-top {
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 0;
+}
+.cate-inner span.opener {
+    left: 0;
+    right: auto;
+}
+#cart_popup .close-cart {
+	left: 30px;
+	right: auto;
+}
+.simplebar-track.simplebar-vertical {
+    right: auto;
+    left: 0;
+}
+/*_______________________________________________________
+// CONTANT  //----------------------------
+_______________________________________________________*/
+
+/* - Banner Style  //---------------- */
+
+.owl-carousel, .bx-wrapper { 
+	direction: ltr; 
+}
+
+.owl-carousel .owl-item { 
+	direction: rtl; 
+}
+
+.banner-detail {
+    right: 10px;
+}
+
+.banner-video .banner-detail {
+	right: auto;
+}
+/*----- Banner Text animation Style ----- */
+  .owl-item .slider-animation * {
+      -webkit-animation-duration: 1.3s;
+              animation-duration: 1.3s;
+      -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+  }
+  .owl-item.active .animated-1 .slogan {
+      -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+      -webkit-animation-name: fadeInLeft;
+              animation-name: fadeInLeft;
+  }
+  .owl-item.active .animated-1 h1 {
+      -webkit-animation-delay: 0.7s;
+              animation-delay: 0.7s;
+      -webkit-animation-name: fadeInLeft;
+              animation-name: fadeInLeft;
+  }
+  .owl-item.active .animated-1 .sub-title, .owl-item.active .animated-1 p {
+      -webkit-animation-delay: 0.9s;
+              animation-delay: 0.9s;
+      -webkit-animation-name: fadeInLeft;
+              animation-name: fadeInLeft;
+  }
+  .owl-item.active .animated-1 a.btn {
+      -webkit-animation-delay: 1.1s;
+              animation-delay: 1.1s;
+      -webkit-animation-name: fadeInLeft;
+              animation-name: fadeInLeft;
+  }
+
+  .owl-item.active .animated-2 .slogan {
+      -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+      -webkit-animation-name: fadeInRight;
+              animation-name: fadeInRight;
+  }
+  .owl-item.active .animated-2 h1 {
+      -webkit-animation-delay: 0.7s;
+              animation-delay: 0.7s;
+      -webkit-animation-name: fadeInRight;
+              animation-name: fadeInRight;
+  }
+  .owl-item.active .animated-2 p, .owl-item.active .animated-2 .sub-title {
+      -webkit-animation-delay: 0.9s;
+              animation-delay: 0.9s;
+      -webkit-animation-name: fadeInRight;
+              animation-name: fadeInRight;
+  }
+  .owl-item.active .animated-2 a.btn {
+      -webkit-animation-delay: 1.1s;
+              animation-delay: 1.1s;
+      -webkit-animation-name: fadeInRight;
+              animation-name: fadeInRight;
+  }
+  .owl-item.active .animated-3 .slogan {
+      -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+      -webkit-animation-name: fadeInDown;
+              animation-name: fadeInDown;
+  }
+  .owl-item.active .animated-3 h1 {
+      -webkit-animation-delay: 0.7s;
+              animation-delay: 0.7s;
+      -webkit-animation-name: fadeInDown;
+              animation-name: fadeInDown;
+  }
+  .owl-item.active .animated-3 .sub-title, .owl-item.active .animated-3 p {
+      -webkit-animation-delay: 0.9s;
+              animation-delay: 0.9s;
+      -webkit-animation-name: fadeInDown;
+              animation-name: fadeInDown;
+  }
+  .owl-item.active .animated-3 a.btn {
+      -webkit-animation-delay: 1.1s;
+              animation-delay: 1.1s;
+      -webkit-animation-name: fadeInDown;
+              animation-name: fadeInDown;
+  }
+  /*----- Banner Text animation Style End----- */
+
+/* Sub Menu Product part */
+.sub-menu-slider .price-box {
+	float: right;
+}
+
+/* Product Box part */
+
+.main_title span::after {
+    right: 0;
+    left: auto;
+}
+
+.list-type .product-item-details, .product-detail-main .product-item-details {
+	text-align: right;
+}
+
+.product-item .detail-inner-left ul li {
+	float: right;
+}
+
+.product-item .detail-inner-left ul li:first-child {
+	padding-right: 0;
+	padding-left: 4px;
+}
+
+.product-item .detail-inner-left ul li:last-child {
+	padding-left: 0;
+	padding-right: 4px;
+}
+.detail-inner-left ul li button {
+	padding: 8px 6px 9px 15px;
+}
+.sale-label {
+    background: #ffe400 none repeat scroll 0 0;
+	right: 10px; 
+	left:auto;
+	color: #1b2839;
+}
+
+.new-label {
+    background: #ff7200 none repeat scroll 0 0;
+    left: 10px;
+    right: auto;
+}
+
+/* daily-deals Start*/
+
+.daily-deals .product-item-details {
+	text-align: right;
+}
+
+/* daily-deals End*/
+
+.pro_cat .owl-next, #blog .owl-next, #top-cat-pro .owl-next,  #brand-logo .owl-next {
+    left: 60px;
+    right: auto;
+}
+
+.pro_cat .owl-prev, #blog .owl-prev, #top-cat-pro .owl-prev, #brand-logo .owl-prev {
+    left: 10px;
+    right: auto;
+}
+
+/* ------------------ */
+
+.shop-list-view .product-item {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.product-detail-main .bottom-detail ul li {
+	padding: 0 10px;
+	border-left: 1px solid #cccccc; 
+	border-right: none;
+}
+
+.bottom-detail ul li:last-child, .bottom-detail ul li.pro-cart-icon {
+    border-left: medium none;
+}
+
+.bottom-detail ul li:first-child {
+	padding-right: 0; 
+}
+
+.bottom-detail ul li span {
+    margin-left: 8px;
+    margin-right: 0;
+}
+.product-detail-main .bottom-detail ul li.pro-cart-icon span { 
+  background-position: -9px -347px; 
+  margin-left: 0;
+}
+/* Site Services Features Block css Star */
+.ser-feature-block .service-box { 
+  border-left: 1px solid #e1e1e1; 
+  border-right: none;
+}
+.ser-feature-block .service-box:last-child {  border-left: none; }
+.feature-detail {
+    padding-right: 15px;
+    padding-left: 0;
+}
+.ser-feature-block .service-box .ser-title { float: right; }
+.ser-subtitle {
+    float: right;
+    margin-right: 10px;
+    margin-left: 0;
+}
+/* Site Services Features Block css end */
+
+/* Custom News Letter CSS Start */
+.newsletter-inner .push-xl-1 {
+	right: 8.33333%;
+	left: auto;
+}
+.newsletter .newsletter-inner form button {
+    left: 0;
+    right: auto;
+}
+
+.newsletter-inner input {
+    padding: 9px 20px 9px 0;
+}
+.newsletter-icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+/* Custom News Letter CSS End */
+
+/* Testimonial CSS Start */
+.client-img {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.quote1-img {
+	text-align: right;
+}
+
+.quote2-img {
+	text-align: left;
+}
+
+.quote {
+	border-right: 1px solid #e1e1e1;
+	border-left: none;
+}
+
+/* Testimonial CSS End */
+
+/*pagination CSS Start */
+
+
+.owl-carousel button.owl-dot {
+	float: right;
+}
+
+/*pagination CSS End */
+
+/* Blog CSS Start */
+.blog-detail .post-info ul li {
+	margin-left: 15px;
+	margin-right: 0;
+}
+.post-info ul li a .fa {
+      -webkit-transform: rotate(180deg);
+         -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+           -o-transform: rotate(180deg);
+              transform: rotate(180deg);
+}
+.comment-detail .post-info ul li a .fa {
+      -webkit-transform: rotate(0);
+         -moz-transform: rotate(0);
+          -ms-transform: rotate(0);
+           -o-transform: rotate(0);
+              transform: rotate(0);
+}
+/* Blog CSS End */
+
+.brand .owl-carousel .owl-stage-outer {
+    border-right: none;
+    border-left: 1px solid #fff;
+}
+.brand .item {
+    border-right: none;
+    border-left: 1px solid #e1e1e1;
+}
+/* Sidebar CSS Start */
+.sidebar-title span::after {
+    right: 0;
+    left: auto;
+}
+.sidebar-item .pro-media {
+	padding: 0 0 0 15px;
+}
+
+/* Sidebar CSS END */
+
+/* Sorting CSS Start */
+
+.shorting .view {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.list-types {
+	float: right;
+}
+.list-types.grid {
+	border-left: 1px solid #dedede;
+	border-right: none;
+}
+.list-types-icon {
+	width: 40px;
+}
+
+.short-by, .select-item {
+	float: right;
+}
+.short-by > span, .show-item > span {
+	float: right;
+}
+.compare {
+	float: left;
+}
+
+.product-listing .fa.fa-angle-right, .product-listing .fa.fa-angle-left {
+	line-height: 44px;
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	     -o-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+/* Sorting CSS End */
+
+/* Product Detail Page Start */
+.product-info-stock-sku > div {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.product-qty {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.share-link label {
+	float: right;
+}
+
+/* --------------- Comment CSS START ------------------ */
+.comment-user {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+ul.child-comment {
+	margin-right: 63px;
+	margin-left: 0;
+}
+.comment-detail .post-info ul li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.shop-list-view .product-item-details {
+    text-align: right;
+}
+/* --------------- Comment CSS End ------------------ */
+
+/* Product Detail Page CSS End */
+
+/* checkbox CSS Start */
+.checkbox + label, .radio-button + label {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.checkbox + label::before, .radio-button + label::before, .checkbox + label::after {
+    right: 0;
+    left: auto;
+}
+.checkbox + label::after {
+    margin-right: -3px;
+    margin-left: 0;
+}
+.checkbox + label::before, .radio-button + label::before, .checkbox + label::after {
+    right: 0;
+    left: auto;
+}
+/* checkbox CSS End */
+
+.contact-info .p-0 {
+	border-left: 1px solid #e1e1e1;
+	border-right: none;
+}
+
+/* Cart Page CSS Start */
+.cart-total-table .table thead tr th {
+	text-align: right;
+}
+/* Cart Page CSS End */
+
+/* Checkout Page CSS Start */
+
+.checkout-step ul li {
+	float: right;
+}
+.checkout-step ul li .step {
+	float: right;
+}
+.checkout-step ul li:last-child .step .line {
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+.paypal-box {
+	float: right;
+	margin-right: 10px;
+	margin-left: 0;
+}
+.paypal-top {
+	left: auto;
+	right: 5px;
+}
+
+/* Checkout Page CSS Start */
+
+/* Login Register Page CSS Start */
+.new-account .link {
+	text-decoration: underline;
+	color: #222;
+}
+.new-account .link:hover {
+	color: #ff3030;
+}
+/* Login Register Page CSS Start */
+
+/* Account Page CSS Start */
+
+.account-sidebar ul li a .fa {
+	left: 15px;
+	right: auto;
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	     -o-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+.account-sidebar ul li.active a .fa, .account-sidebar ul li:hover a .fa {
+	left: 0px;
+	right: auto;
+}
+.account-sidebar ul li.active a::after, .account-sidebar ul li:hover a::after {
+	border-color: rgba(0, 0, 0, 0) #ff3030 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+	left: -37px;
+	right: auto;	
+}
+
+/* Account Page CSS Start */
+
+/* 404 Page CSS Start */
+
+.error-block-bg {
+	background: url(../images/404-bg.jpg) no-repeat scroll right  top;
+}
+/* 404 Page CSS End */
+
+/*_______________________________________________________
+// FOOTER  //----------------------------
+_______________________________________________________*/
+.footer_social{
+	text-align: left;
+}
+.footer .title > span {
+    right: 0;
+    left: auto;
+}
+.footer-static-block li i.fa {
+	float: right;
+}
+.footer-static-block li p {
+	margin-right: 25px;
+	margin-left: 0;
+}
+/* Scroll-top Arrow CSS Start */
+.scroll-top {
+	left: 10px;
+	right: auto;
+}
+/* Scroll-top Arrow CSS End */

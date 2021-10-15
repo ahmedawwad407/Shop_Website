@@ -1,0 +1,1573 @@
+
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <meta name="description" content="الطلبات">
+  <title>الطلبات</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
+  rel="stylesheet">
+  
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+<link rel="shortcut icon" href="sheft.jpeg">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+  <!-- BEGIN VENDOR CSS-->
+  <link rel="stylesheet" type="text/css" href="css/vendors.css">
+  <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.bootstrap4.min.css">
+  <!-- END VENDOR CSS-->
+
+  <!-- BEGIN STACK CSS-->
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/custom-rtl.css">
+  <style>
+@font-face {
+    font-family: Cairo;
+    src: url(fonts/fontawesome-webfont.woff2);
+}
+
+
+body,h1, h2, h3, h4, h5, h6,span,a{
+font-family: 'Cairo', serif;
+}
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    background: #fff;
+    border-radius: 6px;
+    padding: 3px;
+}
+  </style>
+
+  <!-- END STACK CSS-->
+
+  <!-- BEGIN Page Level CSS-->
+  <link rel="stylesheet" type="text/css" href="css/horizontal-menu.css">
+  <link rel="stylesheet" type="text/css" href="css/palette-gradient.css">
+  <!-- END Page Level CSS-->
+  <!-- BEGIN Custom CSS-->
+  <!-- END Custom CSS-->
+</head>
+
+<body class="horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover"
+data-menu="horizontal-menu" data-col="2-columns">
+  <!-- fixed-top-->
+  <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-static-top navbar-dark bg-gradient-x-grey-blue navbar-border navbar-brand-center">
+    <div  class="navbar-wrapper">
+      <div  class="navbar-header">
+        <ul  class="nav navbar-nav flex-row">
+          <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i></i></a></li>
+          <li  class="nav-item">
+            <a class="navbar-brand" href="#">
+              <img class="brand-logo" alt="  متجر شفت الالكتروني" src="sheft.jpeg" width="30">
+              <h3 class="brand-text">متجر شفت الالكتروني</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-container content">
+        <div class="collapse navbar-collapse" id="navbar-mobile">
+          <ul class="nav navbar-nav mr-auto float-left">
+            <!--class  -->
+            <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i></i></a></li>
+          </ul>
+  <style>
+        .actvi{
+
+        background:#a3e6211f !important;
+        color:black !important;
+        }
+        table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+        background:#dedede !important;
+        }
+        </style>
+
+		  
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- Horizontal navigation-->
+  <div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-light navbar-without-dd-arrow navbar-shadow menu-border"
+  role="navigation" data-menu="menu-wrapper">
+    <!-- Horizontal menu content-->
+    <div class="navbar-container main-menu-content" data-menu="menu-container">
+      <!-- include includes/mixins-->
+	  
+	  		             
+
+	  
+      <ul style="height:70px; align-content: center;" class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
+
+        <li style="width:80px; font-size:22px;" ><a class="nav-link" href="website.html"><i></i><span>الرئيسية</span></a></li>
+        <li style="width:80px; font-size:22px;" ><a class="nav-link" href="viewcat1.html"><i></i><span>أجهزة </span></a></li>
+        <li style="width:80px; font-size:22px;" ><a class="nav-link" href="viewcat7.html"><i></i><span>الطلبات</span></a></li>
+        <li style="width:80px; font-size:22px;" ><a class="nav-link" href="viewpage1.html"><i></i><span>الصفحات</span></a></li>
+        <li style="width:450px; font-size:50px; margin-top: 10px; color:red;"><span>الطلبات</span></li>
+      </ul>
+    </div>
+    <!-- /horizontal menu content-->
+  </div>
+  <!-- Horizontal navigation--> 
+
+
+
+     <link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css">
+
+  <link rel="stylesheet" type="text/css" href="css/daterange.css">
+  <link rel="stylesheet" type="text/css" href="css/datatables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/colReorder.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/buttons.bootstrap4.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fixedHeader.dataTables.min.css">
+  <link rel="stylesheet" type="text/css" href="css/vertical-menu.css">
+  <link rel="stylesheet" type="text/css" href="css/palette-gradient.css">
+  <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+  
+  <style>
+      
+      .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    float: right;
+}
+  </style>
+  
+  
+  <script> var tixx= "متجر شفت  الالكتروني"; </script>
+<style>
+.form-section {
+    color: #404E67;
+    line-height: 3rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #404E67;
+}
+</style>
+  <div class="app-content content">
+    <div class="content-wrapper">
+
+      <div class="content-body">
+      
+      
+        <!-- Export options - row selector table -->
+        <section id="export-row">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                 <!--  <h4 class="card-title">الطلبات - 
+
+                  <a href="#" class="btn btn-danger">عرض كل الارشيف</a>
+                  </h4> -->
+                  
+                  <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+                  <div class="heading-elements">
+                    <ul class="list-inline mb-0">
+                      <li ><a data-action="collapse"><i></i>طي</a></li>
+                      <li><a data-action="reload"><i></i>تحديث</a></li>
+                      <li><a data-action="expand"><i></i></a>تكبير</li>
+                      <li><a data-action="close"><i></i></a>اغلاق</li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div class="card-content collapse show">
+                  <div class="card-body card-dashboard">
+                      <br>
+                      
+			  
+				  <script language="javascript">
+
+function del_rec(id)
+{
+
+    if(confirm("هل انت متاكد من الحذف ؟"))
+    {
+
+        window.location="newmail.php?did="+id;
+    }
+}
+
+
+</script>
+                      
+ 
+                      
+                    <table class="table table-striped table-bordered dataex-visibility-rowselector">
+                      <thead>
+                        <tr >
+                          <th>#</th>
+                          <th>الاسم</th>
+                          <th>العنوان</th>
+                          <th>الجوال</th>
+                          <th>الايميل</th>
+                          <th>الملاحظات</th>
+                          <th>السعر</th>
+                          <th>التاريخ</th>
+                          <th>الادوات</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+					  	                        <tr>
+                          <td>1</td>
+                          <td>نواف الشمري </td>
+                          <td>حائل-حي المحطة شارع القعقاع بن عمرو </td>
+                          <td><a href="https://wa.me/9660">٠٥٠١٣٣٢٣٧٠</a></td>
+                          <td>customer5@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-14 15:26:09</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+		    <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+		    
+		    		    <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+		    
+		    
+		    <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+							<a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>2</td>
+                          <td>فوزيه عطيه الغامدي</td>
+                          <td>جده - الربوه - شارع السبعين تقاطع حراء</td>
+                          <td><a href="https://wa.me/966550560423">0550560423</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 256 جيجابايت ، الجيل الخامس 5G ،ذهبي</td>
+                          <td>5800</td>
+                          <td>2021-10-11 19:02:42</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>3</td>
+                          <td>مرام </td>
+                          <td>القصيم بريده النقع </td>
+                          <td><a href="https://wa.me/966532114979">532114979</a></td>
+                          <td>customer11@gmail.com</td>
+                       
+                          <td>ايفون 12 برو ماكس 512 الدفعه الاولى 1000 ريال </td>
+                          <td>6000</td>
+                          <td>2021-10-11 18:12:24</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>4</td>
+                          <td>البي</td>
+                          <td>لببييي</td>
+                          <td><a href="https://wa.me/9660">قققققق</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>آبل ايفون 13 256MB</td>
+                          <td>4649</td>
+                          <td>2021-10-11 13:53:08</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>5</td>
+                          <td>حسن محسن هادي الحربي</td>
+                          <td>الرياض</td>
+                          <td><a href="https://wa.me/9660"></a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-10 22:51:23</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>6</td>
+                          <td>امجد بحري </td>
+                          <td>صبيا</td>
+                          <td><a href="https://wa.me/966561677708">0561677708</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>أبل 2020-ايباد برو 11</td>
+                          <td>3699</td>
+                          <td>2021-10-10 16:45:57</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>7</td>
+                          <td>محمد علي عسيري</td>
+                          <td>محايل عسير </td>
+                          <td><a href="https://wa.me/966557900955">0557900955</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>آبل أيفون 12 برو ، 256 جيجا ، الدفعه الاولى 1000 ريال </td>
+                          <td>5000</td>
+                          <td>2021-10-10 15:36:25</td>
+                          <td>
+		  <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>8</td>
+                          <td>علي السهيمي</td>
+                          <td>اسكان الخبر عماره 611 شقه 21</td>
+                          <td><a href="https://wa.me/966596028229">0596028229</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-10 13:05:34</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>9</td>
+                          <td>فايز</td>
+                          <td>نجران - الشرفة</td>
+                          <td><a href="https://wa.me/966538488708">0538488708</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-10 02:54:50</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>10</td>
+                          <td>عوض العنزي</td>
+                          <td>الرياض حي النظيم</td>
+                          <td><a href="https://wa.me/966539061425">0539061425</a></td>
+                          <td>customer6@gmail.com</td>
+                       
+                          <td>آبل أيفون 12 برو ماكس ، 128 جيجا ، الدفعه الاولى 1000 ريال</td>
+                          <td>5100</td>
+                          <td>2021-10-09 21:00:25</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>11</td>
+                          <td>ابراهيم</td>
+                          <td>الذيابي</td>
+                          <td><a href="https://wa.me/966559765355">0559765355</a></td>
+                          <td>customer15@gmail.com</td>
+                       
+                          <td>آبل ايفون 13 256MB</td>
+                          <td>4649</td>
+                          <td>2021-10-09 20:21:21</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>12</td>
+                          <td>محمد طير</td>
+                          <td>اى</td>
+                          <td><a href="https://wa.me/9660">وة</a></td>
+                          <td>customer6@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 1 تيرا بايت ، الجيل الخامس 5G ،جرافيتي</td>
+                          <td>7800</td>
+                          <td>2021-10-09 14:09:34</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>13</td>
+                          <td>إبراهيم أحمد سعد</td>
+                          <td>الرياض ، حي الروضه</td>
+                          <td><a href="https://wa.me/9660"></a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 1 تيرا بايت ، الجيل الخامس 5G ،جرافيتي</td>
+                          <td>7800</td>
+                          <td>2021-10-09 06:59:04</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>14</td>
+                          <td>علي المطيري</td>
+                          <td>المدينة المنورة</td>
+                          <td><a href="https://wa.me/9660"></a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ايفون 13</td>
+                          <td></td>
+                          <td>2021-10-09 03:52:36</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>15</td>
+                          <td>نوره ناصر راشد السندي </td>
+                          <td>الرياض حي الشفاء </td>
+                          <td><a href="https://wa.me/966535080880">0535080880</a></td>
+                          <td>customer6@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-09 00:42:05</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>16</td>
+                          <td>عايض مشعل القحطاني</td>
+                          <td>المزاحميه منطقه الرياض شارع حاتم التميمي</td>
+                          <td><a href="https://wa.me/966555466333">555466333</a></td>
+                          <td>customer9@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 1 تيرا بايت ، الجيل الخامس 5G ،جرافيتي</td>
+                          <td>7800</td>
+                          <td>2021-10-08 18:23:12</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>17</td>
+                          <td>ناصر </td>
+                          <td>خميس مشيط </td>
+                          <td><a href="https://wa.me/966500093308">0500093308</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-08 17:55:56</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>18</td>
+                          <td>متعب كعبي </td>
+                          <td>الدمام ضاحيه الملك فهد</td>
+                          <td><a href="https://wa.me/9660"></a></td>
+                          <td>customer5@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-08 15:30:28</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>19</td>
+                          <td>عبدالرحمن فيصل الزهراني </td>
+                          <td>مكة المكرمة </td>
+                          <td><a href="https://wa.me/966570707203">0570707203</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>آبل أيفون 12 برو ، 128 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>4600</td>
+                          <td>2021-10-08 15:08:06</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>20</td>
+                          <td>عبير محمد يحي على خبت </td>
+                          <td>جازان قريه بخشه. </td>
+                          <td><a href="https://wa.me/966504991369">0504991369</a></td>
+                          <td>customer5@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-08 14:39:12</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>21</td>
+                          <td>مشعل العضياني</td>
+                          <td>الرياض</td>
+                          <td><a href="https://wa.me/966509474840">0509474840</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-08 11:10:04</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>22</td>
+                          <td>جابر علي حسين عبسي</td>
+                          <td>الدمام حي بدر </td>
+                          <td><a href="https://wa.me/966543966887">0543966887</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-08 09:35:53</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>23</td>
+                          <td>صالح عبدالمحسن </td>
+                          <td>الرياض</td>
+                          <td><a href="https://wa.me/966542411124">542411124</a></td>
+                          <td>customer5@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص ، اليد الأساسية ،1 تيرا ،ابيض </td>
+                          <td>2400</td>
+                          <td>2021-10-08 01:51:07</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>24</td>
+                          <td>may yousef</td>
+                          <td>الرياض ، حي النرجس</td>
+                          <td><a href="https://wa.me/966557574818">0557574818</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص ، اليد الأساسية ،1 تيرا ،ابيض </td>
+                          <td>2400</td>
+                          <td>2021-10-08 00:09:39</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>25</td>
+                          <td>منصور </td>
+                          <td>الرياض - حي الخليج - شارع سعيد ابن ابي العروبة</td>
+                          <td><a href="https://wa.me/966550050323">0550050323</a></td>
+                          <td>customer9@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-07 15:04:50</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>26</td>
+                          <td>راكان المويشير</td>
+                          <td>الرياض - حي النرجس</td>
+                          <td><a href="https://wa.me/966552901098">0552901098</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5 ديجيتال, اليد الأساسية , 825 جيجا ، بدون قاريء اقراص</td>
+                          <td>1990</td>
+                          <td>2021-10-07 13:11:16</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>27</td>
+                          <td>ابراهيم مليحان الشمري</td>
+                          <td>المنطقة الشرقية - الخفجي - حي الفيصلية</td>
+                          <td><a href="https://wa.me/966508088227">0508088227</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-07 12:03:25</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>28</td>
+                          <td>باسل نضال </td>
+                          <td>عبسان الكبيرة </td>
+                          <td><a href="https://wa.me/966505228">505228</a></td>
+                          <td>customer5@gmail.com</td>
+                       
+                          <td>ايفون 11 256 جيجابايت   الدفعه الاولى 1000 ريال</td>
+                          <td>3737</td>
+                          <td>2021-10-07 11:38:15</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>29</td>
+                          <td>مريح سعد الشهراني</td>
+                          <td>الرياض حي طويق شارع نجم الدين الايوبي</td>
+                          <td><a href="https://wa.me/966555765598">0555765598</a></td>
+                          <td>customer11@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-07 08:46:55</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>30</td>
+                          <td>ابراهيم مليحان رشود الشمري </td>
+                          <td>المنطقة الشرقية الخفجي </td>
+                          <td><a href="https://wa.me/966508088226">0508088226</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>ايفون 12 برو ماكس 512 الدفعه الاولى 1000 ريال </td>
+                          <td>6000</td>
+                          <td>2021-10-07 08:22:36</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>31</td>
+                          <td>صلاح عطالله الحربي </td>
+                          <td>بريده - حي النقع </td>
+                          <td><a href="https://wa.me/966507822257">0507822257</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-07 03:32:32</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>32</td>
+                          <td>اروى الجهني</td>
+                          <td>المخطط الشرقي</td>
+                          <td><a href="https://wa.me/966532278301">0532278301</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-07 02:27:13</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>33</td>
+                          <td>محمد يحي محمد هزازي </td>
+                          <td>رفحاء</td>
+                          <td><a href="https://wa.me/966500578869">0500578869</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>آبل أيفون 12 برو ماكس ، 128 جيجا ، الدفعه الاولى 1000 ريال</td>
+                          <td>5100</td>
+                          <td>2021-10-06 23:02:38</td>
+                          <td>
+		  <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>34</td>
+                          <td>محمد هادي ناصر الكتني </td>
+                          <td>العليا التخصصي </td>
+                          <td><a href="https://wa.me/966542570802">0542570802</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>أيفون 13 برو 128 جيجابايت ، الجيل الخامس - ذهبي</td>
+                          <td>4849</td>
+                          <td>2021-10-06 18:13:05</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>35</td>
+                          <td>محمد هادي ناصر الكتني </td>
+                          <td>العليا التخصصي </td>
+                          <td><a href="https://wa.me/966542570802">0542570802</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>أيفون 13 برو 128 جيجابايت ، الجيل الخامس - ذهبي</td>
+                          <td>4849</td>
+                          <td>2021-10-06 18:13:03</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>36</td>
+                          <td>فواز الشهري</td>
+                          <td>الرياض الشفاء </td>
+                          <td><a href="https://wa.me/966505745604">0505745604</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>ايفون 13 برو اقل حجم ازرق </td>
+                          <td></td>
+                          <td>2021-10-06 17:12:01</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>37</td>
+                          <td>فهد حسن محمد نجم الدين </td>
+                          <td>حفص بن غياث العليا </td>
+                          <td><a href="https://wa.me/966508127866">0508127866</a></td>
+                          <td>customer11@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-06 16:33:26</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>38</td>
+                          <td>عبدالعزيز زيد عبدالله السبر</td>
+                          <td>الرياض الشفاء</td>
+                          <td><a href="https://wa.me/966555297370">0555297370</a></td>
+                          <td>customer12@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-06 15:16:45</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>39</td>
+                          <td>عبدالأله عبدالرحمن الحربي </td>
+                          <td>3643</td>
+                          <td><a href="https://wa.me/966502817440">0502817440</a></td>
+                          <td>customer14@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-06 08:21:44</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>40</td>
+                          <td>احمد علي ال نصيف</td>
+                          <td>سيهات حي النمر</td>
+                          <td><a href="https://wa.me/966563822308">0563822308</a></td>
+                          <td>customer15@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-06 07:34:34</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>41</td>
+                          <td>Faisal abdullah </td>
+                          <td>Riyadh</td>
+                          <td><a href="https://wa.me/966501480414">0501480414</a></td>
+                          <td>customer15@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،جرافيتي</td>
+                          <td>5300</td>
+                          <td>2021-10-06 04:20:31</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>42</td>
+                          <td>سطام عبدالرحمن </td>
+                          <td>الرياض </td>
+                          <td><a href="https://wa.me/966503636339">0503636339</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>أيفون 13 ، 128 جيجابايت ، الجيل الخامس - ستارلايت</td>
+                          <td>3949</td>
+                          <td>2021-10-06 04:11:43</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>43</td>
+                          <td>مصطفى قاسم النخلي</td>
+                          <td>القطيف منطقة تاروت حي سنابس شارع الكرونيش</td>
+                          <td><a href="https://wa.me/966544865675">0544865675</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-05 23:32:24</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>44</td>
+                          <td>نوف على القحطاني</td>
+                          <td></td>
+                          <td><a href="https://wa.me/9660"></a></td>
+                          <td>customer6@gmail.com</td>
+                       
+                          <td>آبل آيفون 12 برو ماكس ، 256 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>5300</td>
+                          <td>2021-10-05 21:49:27</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>45</td>
+                          <td>فهد القحطاني </td>
+                          <td>الدمام حي الفرسان </td>
+                          <td><a href="https://wa.me/966568889988">0568889988</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-05 20:03:53</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>46</td>
+                          <td>عبد المجيد الشمري</td>
+                          <td>حائل</td>
+                          <td><a href="https://wa.me/966557114518">0557114518</a></td>
+                          <td>customer10@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-05 18:12:10</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>47</td>
+                          <td>عبدالله الخالدي</td>
+                          <td>الشرقيه الخبر</td>
+                          <td><a href="https://wa.me/966582666614">0582666614</a></td>
+                          <td>customer6@gmail.com</td>
+                       
+                          <td>آبل أيفون 12 برو ، 128 جيجا الدفعه الاولى 1000 ريال </td>
+                          <td>4600</td>
+                          <td>2021-10-05 16:46:49</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>48</td>
+                          <td>Omar</td>
+                          <td>Mohmad</td>
+                          <td><a href="https://wa.me/9665632666633">05632666633</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 128 جيجابايت ، الجيل الخامس 5G ،لون أزرق</td>
+                          <td>5300</td>
+                          <td>2021-10-05 15:38:27</td>
+                          <td>
+		   <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>49</td>
+                          <td>Malak Mohammed</td>
+                          <td>https://maps.google.com/?q=24.663698,46.719147</td>
+                          <td><a href="https://wa.me/966555024862">555024862</a></td>
+                          <td>customer8@gmail.com</td>
+                       
+                          <td>بلاي ستيشن 5،  قارىء اقراص مع وحدة تحكم اضافية ،1 تيرا ،ابيض </td>
+                          <td>2650</td>
+                          <td>2021-10-05 15:38:04</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						                        <tr>
+                          <td>50</td>
+                          <td>محمد يزيد غزواني</td>
+                          <td>الدمام خلف البنك الراجحي</td>
+                          <td><a href="https://wa.me/966533552004">0533552004</a></td>
+                          <td>customer7@gmail.com</td>
+                       
+                          <td>ابل ايفون 13 برو ماكس سعة 256 جيجابايت ، الجيل الخامس 5G ،ذهبي</td>
+                          <td>5800</td>
+                          <td>2021-10-05 15:36:27</td>
+                          <td>
+		    <a href="#" class="btn btn-danger btn-xs" ><i></i>  فاتورة </a>
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارامكس </a>
+        
+                <a href="#" class="btn btn-warning btn-xs" ><i></i>  جرير </a>
+
+        
+        
+        <a href="#" class="btn btn-success btn-xs" ><i></i>  ارسال الرسالة</a>
+              <a href="#" title="حذف" onclick="del_rec(94)" data-toggle="tooltip" class="btn btn-icon btn-danger"><i></i>حذف</a>
+
+						  </td>
+                    
+                        </tr>
+
+						
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                        <th>#</th>
+                          <th>الاسم</th>
+                          <th>العنوان</th>
+                          <th>الجوال</th>
+                          <th>الايميل</th>
+                          <th>الملاحظات</th>
+                          <th>السعر</th>
+                          <th>التاريخ</th>
+                          <th>الادوات</th>
+                        </tr>
+                      </tfoot>
+                    </table>
+                    
+         
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/ Export options - row selector table -->
+     
+      </div>
+    </div>
+  </div>
+  
+  
+			
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+  <footer class="footer footer-static footer-light navbar-shadow">
+    <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+	 </p>
+  </footer>
+  <!-- BEGIN VENDOR JS-->
+  <script src="js/vendors.min.js" type="text/javascript"></script>
+  <!-- BEGIN VENDOR JS-->
+  <!-- BEGIN PAGE VENDOR JS-->
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+  <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
+  <script src="js/datatables.min.js" type="text/javascript"></script>
+  <script src="js/dataTables.buttons.min.js"
+  type="text/javascript"></script>
+  <script src="js/buttons.bootstrap4.min.js"
+  type="text/javascript"></script>
+  <script src="js/buttons.colVis.min.js" type="text/javascript"></script>
+  <script src="js/buttons.print.min.js" type="text/javascript"></script>
+  <script src="js/dataTables.select.min.js"
+  type="text/javascript"></script>
+  <!-- END PAGE VENDOR JS-->
+  <!-- BEGIN STACK JS-->
+  <script src="js/app-menu.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <script src="js/customizer.js" type="text/javascript"></script>
+  <!-- END STACK JS-->
+  <!-- BEGIN PAGE LEVEL JS-->
+  <script type="text/javascript" src="js/breadcrumbs-with-stats.js"></script>
+  
+  <script src="js/datatable-print.js"
+  type="text/javascript"></script>
+
+
+    <script src="js/datatable-colvis.js"
+  type="text/javascript"></script>
+  <!-- END PAGE LEVEL JS-->
+</body>
+</html><script src="js/select2.full.min.js" type="text/javascript"></script>
+  <script src="js/form-select2.js" type="text/javascript"></script>
+  
+  <script src="js/datatables-sources.js"
+  type="text/javascript"></script>
+  
+  
+    <script type="text/javascript" src="js/jquery.sparkline.min.js"></script>
+
+  
+  <script src="js/moment-with-locales.min.js"
+  type="text/javascript"></script>
+  
+  	      <script src="js/bootstrap-datetimepicker.min.js"
+  type="text/javascript"></script>
+  <script src="js/picker.js" type="text/javascript"></script>
+  <script src="js/picker.date.js" type="text/javascript"></script>
+  <script src="js/picker.time.js" type="text/javascript"></script>
+  <script src="js/legacy.js" type="text/javascript"></script>
+  <script src="js/daterangepicker.js"
+  type="text/javascript"></script>
+<script>
+    	$('[da="dddddd"]').datetimepicker({	format: 'DD/MM/YYYY'});
+</script>
